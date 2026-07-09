@@ -19,7 +19,7 @@ ul
     list-style: none;
     gap: 25px;
 
-   
+
 }
 a
 {
@@ -35,4 +35,43 @@ color: #000000;
 color: white;
 border: none;
 
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('images/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+      display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+color: white;
+}
+.right-side
+{
+    font: Poppins;
+    text-align: center;
+  color: white;
+  display: grid;
+  gap: 20px;
+
+}
+.right-side h1
+{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.right-side p
+{
+    margin-bottom: 300px;
+    max-width: 750px;
+
+}
+.right-side button
+{
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
 }
