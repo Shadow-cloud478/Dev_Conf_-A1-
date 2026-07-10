@@ -1,7 +1,7 @@
 Prompt-1
 Act like a professional ui/ux designer .and suggest me a relevant idea to make a section in the devconf landing page .i am uploading the image of my design so you can make the section idea more clearly 
 
-#Design 
+#Design prototype
 
 --------------------------------------------------
 
