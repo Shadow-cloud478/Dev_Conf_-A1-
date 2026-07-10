@@ -139,6 +139,7 @@ color: #575757;
 
 .price-card
 {
+    
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
@@ -155,12 +156,14 @@ color: #575757;
 
 .every-card p
 {
+    text-align: left;
     color: gray;
     margin: 0;
 }
 
 .every-card h1
 {
+     text-align: left;
     font-size: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -193,5 +196,149 @@ color: #575757;
     font-size: 16px;
     cursor: pointer;
 }
+.every-card-2
+{
+    border: 1px solid #1E293B;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #0F172A;
+}
 
+.every-card-2 p
+{
+    text-align: left;
+    color: #94A3B8;
+    margin: 0;
+}
 
+.every-card-2 h1
+{
+    text-align: left;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.every-card-2 ul
+{
+    display: block;
+    list-style: disc;
+    margin-top: 30px;
+    padding-top: 25px;
+    padding-left: 20px;
+    border-top: 1px solid #334155;
+}
+
+.every-card-2 li
+{
+    margin-bottom: 18px;
+    line-height: 25px;
+    color: #E5E7EB;
+}
+
+.every-card-2 li::marker
+{
+    color: #3B82F6;
+}
+
+.every-card-2 button
+{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563EB;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.schedule
+{
+    background-color: #F8FAFC;
+}
+
+.schedule h1
+{
+    text-align: center;
+    font-size: 50px;
+    color: #111827;
+}
+
+.schedule-text
+{
+    text-align: center;
+    color: #6B7280;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.schedule-card
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.day-card
+{
+    background-color: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 15px;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+.day-card:hover
+{
+    border-color: #2563EB;
+    box-shadow: 0px 10px 25px rgba(37,99,235,0.15);
+    transform: translateY(-8px);
+}
+
+.day-card h2
+{
+    text-align: center;
+    color: white;
+    background-color: #2563EB;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.time-box
+{
+    border-left: 4px solid #2563EB;
+    padding-left: 18px;
+    margin-bottom: 25px;
+}
+
+.time-box h4
+{
+    color: #2563EB;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.time-box p
+{
+    color: #4B5563;
+    line-height: 24px;
+}
+
+.time-box:hover
+{
+    border-left-color: #1D4ED8;
+}
+
+.time-box:hover h4
+{
+    color: #1D4ED8;
+}
+
+.time-box:hover p
+{
+    color: #111827;
+}
